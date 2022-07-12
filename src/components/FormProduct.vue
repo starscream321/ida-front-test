@@ -69,7 +69,6 @@ export default {
   setup(props, {emit}) {
 
 
-
     const state = reactive({
       name: '',
       description: '',
@@ -77,7 +76,6 @@ export default {
       price: '',
       error: false
     })
-
 
 
     const rules = computed(() => {
@@ -116,10 +114,7 @@ export default {
   methods: {}
 }
 </script>
-<script>
 
-
-</script>
 
 <style scoped>
 form {
