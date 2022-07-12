@@ -1,4 +1,6 @@
-# untitled3
+# ida-front-test
+
+Node.JS v16.15.1
 
 ## Project setup
 ```
@@ -10,7 +12,7 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Для локального запуска(изменён publicPath во vue.config.js)
 ```
 npm run build
 ```
